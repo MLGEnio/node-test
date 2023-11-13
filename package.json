@@ -7,7 +7,5 @@
     "start:server": "cd server && npm run build && npm run dev",
     "start": "concurrently \"npm run start:client\" \"npm run start:server\""
   },
-  "dependencies": {
-    "mongodb": "^6.2.0"
-  }
+  "dependencies": {}
 }
